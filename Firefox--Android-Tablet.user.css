@@ -3,7 +3,7 @@
 @description    A style for squash.org.nz scoring that makes it easier to read on a tablet and screen cast
 @author         AndyD328
 @namespace      github.com/AndyD328
-@version        1.0.1
+@version        1.0.2
 @updateURL      https://raw.githubusercontent.com/AndyD328/MySquashCSS/refs/heads/main/Firefox--Android-Tablet.user.css
 ==/UserStyle== */
 
@@ -43,30 +43,53 @@
         max-height: 170px!important;
         margin-bottom: 1rem!important;
     }
-    .singles-layout > div:nth-child(2) > div {
-        display: grid!important;
-        grid-template-columns: 1fr 1fr; /* Two equal columns */
+    .singles-layout > div:nth-child(2) > div:nth-child(2) {
         max-height: 170px !important;
         margin-bottom: 1rem !important;
     }
 
-    .singles-layout > div:nth-child(2) > div > div:nth-child(1) > div,
-    .singles-layout > div:nth-child(2) > div > div:nth-child(2) > div {
-        /* Name */
-        grid-column: span 2;
+    .singles-layout .sqnz-setup {
+        /* Direct Player wrapper  */
+        display: grid!important;
+        grid-template-columns: 1fr 1fr!important; /* Two equal columns */
+    }
+    /* The structure of the first and second players is different, there is a blank div in the first spot in the 2nd player */
+    .singles-layout > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(1) .sqnz-setup > div:nth-child(1) {
+        /* First Player Name */
+        grid-column: span 2!important;
         font-size: 5.75rem!important;
         overflow: hidden !important;
-        text-overflow: ellipsis;
+        text-overflow: ellipsis!important;
     }
-    .singles-layout > div:nth-child(2) > div > div:nth-child(2) > div,
-    .singles-layout > div:nth-child(2) > div > div:nth-child(3) > div {
-        /* Code */
+    .singles-layout > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(1) .sqnz-setup > div:nth-child(n+2) {
+        /* First Player Code & Points */
         overflow: hidden !important;
-        font-size: 1rem!important;
+        font-size: 1.1rem!important;
         padding-top: 0!important;
         padding-bottom: .25rem!important;
         margin-top: 0!important;
     }
+
+    .singles-layout > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(2) .sqnz-setup > div:nth-child(1) {
+        /* rando element in the source to add whitespace? */
+        display: none!important;
+    }
+    .singles-layout > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(2) .sqnz-setup > div:nth-child(2) {
+        /* Second Player Name */
+        grid-column: span 2!important;
+        font-size: 5.75rem!important;
+        overflow: hidden !important;
+        text-overflow: ellipsis!important;
+    }
+    .singles-layout > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(2) .sqnz-setup > div:nth-child(n+3) {
+        /* Second Player Code & Points */
+        overflow: hidden !important;
+        font-size: 1.1rem!important;
+        padding-top: 0!important;
+        padding-bottom: .25rem!important;
+        margin-top: 0!important;
+    }
+
     /* END NAMES, CODES & POINTS */
 
     .singles-layout .score-body {
