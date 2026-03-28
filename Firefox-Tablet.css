@@ -1,3 +1,12 @@
+/* ==UserStyle==
+@name           MySquash scoring - Android Tablet, Firefox
+@description    A style for squash.org.nz scoring that makes it easier to read on a tablet and screen cast
+@author         AndyD328
+@namespace      github.com/AndyD328
+@version        1.0.0
+@updateURL      https://raw.githubusercontent.com/AndyD328/MySquashCSS/refs/heads/main/Firefox-Tablet.css
+==/UserStyle== */
+
 @-moz-document domain("squash.org.nz"), url-prefix("https://www.squash.org.nz/scoring/") {
     .singles-layout {
         position: relative!important;
@@ -30,7 +39,7 @@
     }
     .singles-layout .score-body {
         max-height: 45vh!important;
-        padding: 0rem 1rem!important ;
+        padding: 0 1rem!important ;
     }
     .singles-layout .score-sub-panel {
         /* Current game score */
