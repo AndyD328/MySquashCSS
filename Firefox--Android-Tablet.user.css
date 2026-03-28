@@ -67,6 +67,41 @@
     .singles-layout .user-select-none  > div:nth-child(1) {
         /* Let, Undo etc buttons */
         padding: 0 2rem!important;
+        justify-content: center!important;
     }
+
+    /* PLAYER 1 LEFT/RIGHT SERVE BUTTON */
+    .singles-layout .user-select-none  > div:nth-child(1) > div:nth-child(1) {
+        position: relative !important;
+        top: 9rem !important;
+        border-radius: 2rem !important;
+        left: 21em !important;
+        width: auto !important;
+    }
+    .singles-layout .user-select-none  > div:nth-child(1) > div:nth-child(1) button {
+        padding: 1rem 2rem !important;
+        border-radius: 2rem !important;
+        background-color: #ccc !important;
+        color: black !important;
+        font-size: 1.5rem;
+    }
+    /* END PLAYER 1 LEFT/RIGHT SERVE BUTTON */
+
+    /* PLAYER 2 LEFT/RIGHT SERVE BUTTON */
+    .singles-layout .user-select-none  > div:nth-child(1) > div:nth-child(5) {
+        position: relative !important;
+        top: 9rem !important;
+        border-radius: 2rem !important;
+        left: -1rem !important;
+        width: auto !important;
+    }
+    .singles-layout .user-select-none  > div:nth-child(1) > div:nth-child(5) button {
+        padding: 1rem 2rem !important;
+        border-radius: 2rem !important;
+        background-color: #ccc !important;
+        color: black !important;
+        font-size: 1.5rem;
+    }
+    /* END PLAYER 2 LEFT/RIGHT SERVE BUTTON */
 
 }
