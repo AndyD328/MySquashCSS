@@ -4,7 +4,8 @@ Licensed as MIT
  - Do want you want with it, contribute back if it makes sense. 
 
 Initially created for Christchurch Squash Club 2026
- - Firefox on Android Tablets.
+At time of writing it has only been tested on:
+ - **Firefox on Android Tablets.**
 
 ## How to Install on Android
 # Step 1: Install Firefox on your Android Tablet
