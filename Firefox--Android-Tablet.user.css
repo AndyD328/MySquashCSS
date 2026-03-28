@@ -75,7 +75,6 @@
         position: relative !important;
         top: 9rem !important;
         border-radius: 2rem !important;
-        left: 21em !important;
         width: auto !important;
     }
     .singles-layout .user-select-none  > div:nth-child(1) > div:nth-child(1) button {
@@ -92,7 +91,6 @@
         position: relative !important;
         top: 9rem !important;
         border-radius: 2rem !important;
-        left: -1rem !important;
         width: auto !important;
     }
     .singles-layout .user-select-none  > div:nth-child(1) > div:nth-child(5) button {
