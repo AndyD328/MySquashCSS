@@ -50,83 +50,83 @@
         margin-bottom: 1rem !important;
     }
 
-    .singles-layout > div:nth-child(2) > div > div:nth-child(1) > div {
-        .singles-layout > div:nth-child(2) > div > div:nth-child(2) > div {
-            /* Name */
-            grid-column: span 2;
-            font-size: 5.75rem!important;
-            overflow: hidden !important;
-            text-overflow: ellipsis;
-        }
-        .singles-layout > div:nth-child(2) > div > div:nth-child(2) > div,
-        .singles-layout > div:nth-child(2) > div > div:nth-child(3) > div {
-            /* Code */
-            overflow: hidden !important;
-            font-size: 1rem!important;
-            padding-top: 0!important;
-            padding-bottom: .25rem!important;
-            margin-top: 0!important;
-        }
-        /* END NAMES, CODES & POINTS */
-
-        .singles-layout .score-body {
-            max-height: 43vh!important;
-            padding: 0 1rem!important ;
-        }
-        .singles-layout .score-sub-panel {
-            /* Current game score */
-            border-radius: 2rem!important;
-            padding: 2rem!important;
-        }
-        .singles-layout .score-text {
-            display: flex!important;
-            align-items: center!important;
-            justify-content: center!important;
-            border-radius: 2rem!important;
-            background-color: black!important;
-            color: white!important;
-            width: 100%!important;
-            height: 100%!important;
-            align-self: center!important;
-        }
-
-
-        .singles-layout .user-select-none  > div:nth-child(1) {
-            /* Let, Undo etc buttons */
-            padding: 0 2rem!important;
-            justify-content: center!important;
-        }
-
-        /* PLAYER 1 LEFT/RIGHT SERVE BUTTON */
-        /*.singles-layout .user-select-none  > div:nth-child(1) > div:nth-child(1) {*/
-        /*    position: relative !important;*/
-        /*    top: 9rem !important;*/
-        /*    border-radius: 2rem !important;*/
-        /*    width: auto !important;*/
-        /*}*/
-        /*.singles-layout .user-select-none  > div:nth-child(1) > div:nth-child(1) button {*/
-        /*    padding: 1rem 2rem !important;*/
-        /*    border-radius: 2rem !important;*/
-        /*    background-color: #ccc !important;*/
-        /*    color: black !important;*/
-        /*    font-size: 1.5rem;*/
-        /*}*/
-        /* END PLAYER 1 LEFT/RIGHT SERVE BUTTON */
-
-        /* PLAYER 2 LEFT/RIGHT SERVE BUTTON */
-        /*.singles-layout .user-select-none  > div:nth-child(1) > div:nth-child(5) {*/
-        /*    position: relative !important;*/
-        /*    top: 9rem !important;*/
-        /*    border-radius: 2rem !important;*/
-        /*    width: auto !important;*/
-        /*}*/
-        /*.singles-layout .user-select-none  > div:nth-child(1) > div:nth-child(5) button {*/
-        /*    padding: 1rem 2rem !important;*/
-        /*    border-radius: 2rem !important;*/
-        /*    background-color: #ccc !important;*/
-        /*    color: black !important;*/
-        /*    font-size: 1.5rem;*/
-        /*}*/
-        /* END PLAYER 2 LEFT/RIGHT SERVE BUTTON */
-
+    .singles-layout > div:nth-child(2) > div > div:nth-child(1) > div,
+    .singles-layout > div:nth-child(2) > div > div:nth-child(2) > div {
+        /* Name */
+        grid-column: span 2;
+        font-size: 5.75rem!important;
+        overflow: hidden !important;
+        text-overflow: ellipsis;
     }
+    .singles-layout > div:nth-child(2) > div > div:nth-child(2) > div,
+    .singles-layout > div:nth-child(2) > div > div:nth-child(3) > div {
+        /* Code */
+        overflow: hidden !important;
+        font-size: 1rem!important;
+        padding-top: 0!important;
+        padding-bottom: .25rem!important;
+        margin-top: 0!important;
+    }
+    /* END NAMES, CODES & POINTS */
+
+    .singles-layout .score-body {
+        max-height: 43vh!important;
+        padding: 0 1rem!important ;
+    }
+    .singles-layout .score-sub-panel {
+        /* Current game score */
+        border-radius: 2rem!important;
+        padding: 2rem!important;
+    }
+    .singles-layout .score-text {
+        display: flex!important;
+        align-items: center!important;
+        justify-content: center!important;
+        border-radius: 2rem!important;
+        background-color: black!important;
+        color: white!important;
+        width: 100%!important;
+        height: 100%!important;
+        align-self: center!important;
+    }
+
+
+    .singles-layout .user-select-none  > div:nth-child(1) {
+        /* Let, Undo etc buttons */
+        padding: 0 2rem!important;
+        justify-content: center!important;
+    }
+
+    /* PLAYER 1 LEFT/RIGHT SERVE BUTTON */
+    /*.singles-layout .user-select-none  > div:nth-child(1) > div:nth-child(1) {*/
+    /*    position: relative !important;*/
+    /*    top: 9rem !important;*/
+    /*    border-radius: 2rem !important;*/
+    /*    width: auto !important;*/
+    /*}*/
+    /*.singles-layout .user-select-none  > div:nth-child(1) > div:nth-child(1) button {*/
+    /*    padding: 1rem 2rem !important;*/
+    /*    border-radius: 2rem !important;*/
+    /*    background-color: #ccc !important;*/
+    /*    color: black !important;*/
+    /*    font-size: 1.5rem;*/
+    /*}*/
+    /* END PLAYER 1 LEFT/RIGHT SERVE BUTTON */
+
+    /* PLAYER 2 LEFT/RIGHT SERVE BUTTON */
+    /*.singles-layout .user-select-none  > div:nth-child(1) > div:nth-child(5) {*/
+    /*    position: relative !important;*/
+    /*    top: 9rem !important;*/
+    /*    border-radius: 2rem !important;*/
+    /*    width: auto !important;*/
+    /*}*/
+    /*.singles-layout .user-select-none  > div:nth-child(1) > div:nth-child(5) button {*/
+    /*    padding: 1rem 2rem !important;*/
+    /*    border-radius: 2rem !important;*/
+    /*    background-color: #ccc !important;*/
+    /*    color: black !important;*/
+    /*    font-size: 1.5rem;*/
+    /*}*/
+    /* END PLAYER 2 LEFT/RIGHT SERVE BUTTON */
+
+}
