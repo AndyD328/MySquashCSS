@@ -1,5 +1,7 @@
 # MySquashCSS
 Custom User CSS for MySquash Scoring
+Licensed as MIT
+ - Do want you want with it, contribute back if it makes sense. 
 
 Initially created for Christchurch Squash Club 2026
  - Firefox on Android Tablets.
@@ -29,3 +31,16 @@ https://raw.githubusercontent.com/AndyD328/MySquashCSS/refs/heads/main/Firefox--
 5. Go score!
 
 Note: If the code just opens as a page of text, tap the Stylus icon in your Add-ons menu and select "Write new style," then paste the code manually.gs, 
+
+# Contributing
+This should be a very short lived project as MySquash will sort the layout at some point.
+In the meantime, if you adapt this to work on other browsers, platforms, screen sizes etc please 
+contribute your changes to this repo with a pull request. Or you could email me at
+andy@bluefusion.co.nz
+
+If you have issues I *may* be able to help, but this is provided as is without any warranty, support, 
+or guarantees that it's even remotely suited to purpose. If you reach out and I have time I will try to help, but there are definitely no
+guarantees as paid work and squash come first. This just scratches my itch as a TC.
+
+**NOTE** The css in here is not pretty. There's not a lot to get hold of in the markup, so it's
+a lot of nth-child selectors.
