@@ -12,6 +12,7 @@
         position: relative!important;
         max-height:100vh!important;
     }
+    /* PREVIOUS SCORES */
     .singles-layout > div:nth-child(1) {
         /* Previous game scores */
         position: absolute!important;
@@ -23,13 +24,17 @@
         padding-left: 1rem!important;
         background-color: #ccc!important;
     }
-
     .singles-layout > div:nth-child(1) > div {
         display: flex!important;
         justify-content: start!important;
         padding-left: 2rem!important;
     }
 
+    .singles-layout > div:nth-child(1) > div > span {
+        display:flex!important;
+        gap: 2rem!important;
+    }
+    /* END - PREVIOUS SCORES */
     .singles-layout > div:nth-child(2) {
         /* Names, codes & points at top of board */
         font-size: 5.75rem!important;
