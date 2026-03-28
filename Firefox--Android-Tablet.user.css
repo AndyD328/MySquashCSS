@@ -29,19 +29,39 @@
         justify-content: start!important;
         padding-left: 2rem!important;
     }
-
     .singles-layout > div:nth-child(1) > div > span {
         display:flex!important;
         gap: 2rem!important;
+        justify-content: start!important;
+        align-items: center!important;
     }
     /* END - PREVIOUS SCORES */
+
+    /* NAMES, CODES & POINTS */
     .singles-layout > div:nth-child(2) {
-        /* Names, codes & points at top of board */
-        font-size: 5.75rem!important;
+        /* Names, codes & points wrapper at 'top' of board */
+        display: grid;
+        grid-template-columns: 75% 25%;
+        grid-template-rows: 1fr 1fr; /* Two equal height rows for the stacked items */
         max-height: 170px!important;
-        overflow: hidden!important;
         margin-bottom: 1rem!important;
     }
+    .singles-layout > div:nth-child(2) > div:nth-child(1) {
+        /* Name */
+        font-size: 5.75rem!important;
+        overflow: hidden !important;
+        text-overflow: ellipsis;
+    }
+    .singles-layout > div:nth-child(2) > div:nth-child(2) {
+        /* Code */
+        overflow: hidden !important;
+        font-size: 2.5rem!important;
+    }
+    .singles-layout > div:nth-child(2) > div:nth-child(3) {
+        /* Points */
+    }
+    /* END NAMES, CODES & POINTS */
+
     .singles-layout .score-body {
         max-height: 43vh!important;
         padding: 0 1rem!important ;
@@ -71,35 +91,35 @@
     }
 
     /* PLAYER 1 LEFT/RIGHT SERVE BUTTON */
-    .singles-layout .user-select-none  > div:nth-child(1) > div:nth-child(1) {
-        position: relative !important;
-        top: 9rem !important;
-        border-radius: 2rem !important;
-        width: auto !important;
-    }
-    .singles-layout .user-select-none  > div:nth-child(1) > div:nth-child(1) button {
-        padding: 1rem 2rem !important;
-        border-radius: 2rem !important;
-        background-color: #ccc !important;
-        color: black !important;
-        font-size: 1.5rem;
-    }
+    /*.singles-layout .user-select-none  > div:nth-child(1) > div:nth-child(1) {*/
+    /*    position: relative !important;*/
+    /*    top: 9rem !important;*/
+    /*    border-radius: 2rem !important;*/
+    /*    width: auto !important;*/
+    /*}*/
+    /*.singles-layout .user-select-none  > div:nth-child(1) > div:nth-child(1) button {*/
+    /*    padding: 1rem 2rem !important;*/
+    /*    border-radius: 2rem !important;*/
+    /*    background-color: #ccc !important;*/
+    /*    color: black !important;*/
+    /*    font-size: 1.5rem;*/
+    /*}*/
     /* END PLAYER 1 LEFT/RIGHT SERVE BUTTON */
 
     /* PLAYER 2 LEFT/RIGHT SERVE BUTTON */
-    .singles-layout .user-select-none  > div:nth-child(1) > div:nth-child(5) {
-        position: relative !important;
-        top: 9rem !important;
-        border-radius: 2rem !important;
-        width: auto !important;
-    }
-    .singles-layout .user-select-none  > div:nth-child(1) > div:nth-child(5) button {
-        padding: 1rem 2rem !important;
-        border-radius: 2rem !important;
-        background-color: #ccc !important;
-        color: black !important;
-        font-size: 1.5rem;
-    }
+    /*.singles-layout .user-select-none  > div:nth-child(1) > div:nth-child(5) {*/
+    /*    position: relative !important;*/
+    /*    top: 9rem !important;*/
+    /*    border-radius: 2rem !important;*/
+    /*    width: auto !important;*/
+    /*}*/
+    /*.singles-layout .user-select-none  > div:nth-child(1) > div:nth-child(5) button {*/
+    /*    padding: 1rem 2rem !important;*/
+    /*    border-radius: 2rem !important;*/
+    /*    background-color: #ccc !important;*/
+    /*    color: black !important;*/
+    /*    font-size: 1.5rem;*/
+    /*}*/
     /* END PLAYER 2 LEFT/RIGHT SERVE BUTTON */
 
 }
