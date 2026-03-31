@@ -3,7 +3,8 @@ Custom User CSS for MySquash Scoring
 Licensed as MIT
  - Do want you want with it, contribute back if it makes sense. 
 
-Initially created for Christchurch Squash Club 2026
+Initially created for Christchurch Squash Club 2026.
+
 At time of writing it has only been tested on:
  - **Firefox on Android Tablets.**
 
@@ -18,14 +19,12 @@ Without removing/updating it may make your tablet scoring in Firefox unusable.
 1. Open the Google Play Store.
 2. Search for Firefox Fast & Private Browser.
 3. Tap Install and open the app once finished.
-4. (Optional) Sign in to your Firefox account if you want to sync your bookmarks from a desktop.
 
 # Step 2: Add the Stylus Extension
-1. Firefox for Android now supports a curated list of desktop-class extensions.
-2. Open Firefox and tap the three dots (⋮) in the top or bottom corner of the screen.
-3. Select Add-ons from the menu.
-4. Tap Find more add-ons or look for Stylus in the recommended list.
-5. Tap the plus (+) icon next to Stylus, then select Add to confirm the installation.
+1. Open Firefox and tap the three dots (⋮) in the top or bottom corner of the screen.
+2. Select Add-ons from the menu.
+3. Tap Find more add-ons or look for Stylus in the recommended list.
+4. Tap the plus (+) icon next to Stylus, then select Add to confirm the installation.
 
 # Step 3: Install the MySquash User CSS
 1. Copy the following URL:
@@ -37,7 +36,7 @@ https://raw.githubusercontent.com/AndyD328/MySquashCSS/refs/heads/main/Firefox--
 4. Tap the Install Style button on the left-hand side of the Stylus screen.
 5. Go score!
 
-Note: If the code just opens as a page of text, tap the Stylus icon in your Add-ons menu and select "Write new style," then paste the code manually.gs, 
+Note: If the code just opens as a page of text, tap the Stylus icon in your Add-ons menu and select "Write new style," then paste the code manually. 
 
 # Contributing
 This should be a very short lived project as MySquash will sort the layout at some point.
