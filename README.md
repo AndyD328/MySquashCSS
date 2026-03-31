@@ -7,6 +7,12 @@ Initially created for Christchurch Squash Club 2026
 At time of writing it has only been tested on:
  - **Firefox on Android Tablets.**
 
+
+# CAVEAT
+As and when MySquash itself is updated - ie the markup or css changes - this will need to be removed or updated.
+Without removing/updating it may make your tablet scoring in Firefox unusable.
+
+
 ## How to Install on Android
 # Step 1: Install Firefox on your Android Tablet
 1. Open the Google Play Store.
