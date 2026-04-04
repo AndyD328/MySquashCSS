@@ -3,7 +3,7 @@
 @description    A style for squash.org.nz scoring that makes it easier to read on a tablet and screen cast
 @author         AndyD328
 @namespace      github.com/AndyD328
-@version        1.0.9
+@version        1.0.10
 @updateURL      https://raw.githubusercontent.com/AndyD328/MySquashCSS/refs/heads/main/Firefox--Android-Tablet.user.css
 ==/UserStyle== */
 
@@ -135,13 +135,13 @@
     /* END NAMES, CODES & POINTS */
 
     .singles-layout .score-body {
-        max-height: 35vh!important;
+        max-height: 37vh!important;
         padding: 0 1rem!important ;
     }
     .singles-layout .score-sub-panel {
         /* Current game score */
         border-radius: 1rem!important;
-        padding: .5rem!important;
+        padding: 1rem!important;
     }
     .singles-layout .score-text {
         /* Element that directly contains a single player's current score */
