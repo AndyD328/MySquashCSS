@@ -3,11 +3,18 @@
 @description    A style for squash.org.nz scoring that makes it easier to read on a tablet and screen cast
 @author         AndyD328
 @namespace      github.com/AndyD328
-@version        1.0.4
+@version        1.0.5
 @updateURL      https://raw.githubusercontent.com/AndyD328/MySquashCSS/refs/heads/main/Firefox--Android-Tablet.user.css
 ==/UserStyle== */
 
 @-moz-document domain("squash.org.nz"), url-prefix("https://www.squash.org.nz/scoring/") {
+    #app > div:nth-child(2) {
+        flex-direction: row-reverse!important
+    }
+    #app > div:nth-child(2) > div {
+        width: 50%;
+        padding-top: 10px;
+    }
     .singles-layout {
         position: relative!important;
         max-height:100vh!important;
@@ -128,14 +135,14 @@
     }
     .singles-layout .score-sub-panel {
         /* Current game score */
-        border-radius: 2rem!important;
-        padding: 2rem!important;
+        border-radius: 1rem!important;
+        padding: 1rem!important;
     }
     .singles-layout .score-text {
         display: flex!important;
         align-items: center!important;
         justify-content: center!important;
-        border-radius: 2rem!important;
+        border-radius: 1rem!important;
         background-color: black!important;
         color: white!important;
         width: 100%!important;

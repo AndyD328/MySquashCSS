@@ -1,9 +1,9 @@
 # MySquashCSS
 Custom User CSS for MySquash Scoring
 Licensed as MIT
- - Do want you want with it, contribute back if it makes sense. 
+ - Do what you want with it, contribute back if it makes sense and you feel like it. 
 
-Initially created for Christchurch Squash Club 2026.
+Initially created for Christchurch Squash Club in March 2026.
 
 At time of writing it has only been tested on:
  - **Firefox on Android Tablets.**
